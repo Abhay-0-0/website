@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio | Abhay</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Abhay</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Abhay</span><br>Game Developer</h1>
+                <a href="assets/cv/Abhay_CV.pdf" class="button" target="_blank" onclick="downloadInNewTab()">Download CV</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/your-linkedin/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://kicK-abhay.itch.io/" class="home__social-icon" target="_blank"><i class='bx bx-joystick'></i></a>
+                <a href="https://github.com/abhay0-0" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <div class="home__circle">
+                    <img src="assets/img/perfil.png" alt="Abhay" class="home__photo">
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/batman.png" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'm Abhay</h2>
+                    <p class="about__text">
+                        a passionate game developer with experience in Unity, 3D design, and programming. 
+                        I love creating immersive experiences and solving gameplay challenges with creativity and technical skills.
+                    </p>           
+                </div>                                   
+            </div>
+        </section>
+
+<!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills__container bd-grid">          
+        <div>
+            <h2 class="skills__subtitle">Game Development Skills</h2>
+            <p class="skills__text">Here are the tools and skills I use to build interactive games.</p>
+
+            <!-- Unity -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-unity skills__icon'></i>
+                    <span class="skills__name">Unity</span>
+                </div>
+                <div class="skills__bar" style="width: 90%;"></div>
+                <div><span class="skills__percentage">90%</span></div>
+            </div>
+
+            <!-- C# -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bx-code-alt skills__icon'></i>
+                    <span class="skills__name">C#</span>
+                </div>
+                <div class="skills__bar" style="width: 85%;"></div>
+                <div><span class="skills__percentage">85%</span></div>
+            </div>
+
+            <!-- Python -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-python skills__icon'></i>
+                    <span class="skills__name">Python</span>
+                </div>
+                <div class="skills__bar" style="width: 85%;"></div>
+                <div><span class="skills__percentage">85%</span></div>
+            </div>
+
+            <!-- C++ -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bx-code-block skills__icon'></i>
+                    <span class="skills__name">C++</span>
+                </div>
+                <div class="skills__bar" style="width: 70%;"></div>
+                <div><span class="skills__percentage">70%</span></div>
+            </div>
+
+            <!-- Blender -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-blender skills__icon'></i>
+                    <span class="skills__name">Blender</span>
+                </div>
+                <div class="skills__bar" style="width: 60%;"></div>
+                <div><span class="skills__percentage">60%</span></div>
+            </div>
+        </div>
+
+        <div>              
+            <img src="assets/img/work3.jpg" alt="" class="skills__img">
+        </div>
+    </div>
+</section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+            <div class="work__container bd-grid">
+                <a href="https://abhayy0-0.itch.io/skyglide" class="work__img" target="_blank">
+                    <img src="assets/img/skyglide.png" alt="Skyglide">
+                    <div class="work__overlay">
+                        <p>A fast-paced flying game where you navigate through obstacles and collect power-ups!</p>
+                    </div>
+                </a>
+
+                <a href="https://abhayy0-0.itch.io/evolveme" class="work__img" target="_blank">
+                    <img src="assets/img/evolveme.png" alt="EvolveMe">
+                    <div class="work__overlay">
+                        <p>Platformer where evolution is your key! Hop between species to solve puzzles.</p>
+                    </div>
+                </a>
+
+                <a href="https://abhayy0-0.itch.io/temple-of-light" class="work__img" target="_blank">
+                    <img src="assets/img/templeoflight.png" alt="Temple of Light">
+                    <div class="work__overlay">
+                        <p>Explore puzzles in the ancient Temple of Light and solve challenges with mirrors!</p>
+                    </div>
+                </a>
+                <a >
+
+
+                    
+                </a>
+
+                <a href="https://abhayy0-0.itch.io/grizz-adventure" class="work__img" target="_blank">
+                    <img src="assets/img/grizzadventure.png" alt="Grizz Adventure">
+                    <div class="work__overlay">
+                        <p>Join Grizz on an adventure through challenging terrain in this 3D platformer!</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="mailto:kumarabhay1303@gmail.com" method="post" enctype="text/plain" class="contact__form">
+                    <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                    <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                    <textarea name="message" placeholder="Your Message" cols="0" rows="10" class="contact__input" required></textarea>
+                    <input type="submit" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Abhay</p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/abhayy.0_0/" class="footer__icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/KicK_dev_r" class="footer__icon" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.youtube.com/@kick_07" class="footer__icon" target="_blank"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Abhay. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <!--===== DOWNLOAD CV SCRIPT =====-->
+    <script>
+    function downloadInNewTab() {
+        const link = document.createElement('a');
+        link.href = 'assets/cv/Abhay_CV.pdf';
+        link.download = 'Abhay_CV.pdf';
+        link.target = '_blank';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+    </script>
+</body>
+</html>
